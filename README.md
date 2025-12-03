@@ -62,7 +62,7 @@ This project analyzes customer data and builds machine learning models to identi
 | Model | AUC-ROC | Key Insight |
 |--------|----------|--------------|
 | Logistic Regression | ~0.77 | Baseline model, interpretable but limited recall. Precision for key class is very low - ~0.39 |
-| **Balanced Random Forest** | **~0.85 (best recall)** | Best recall across al models, minimal false negatives. After hyperparameter tuning and class weights tuning, we were able to get ~0.80 on recall, but 0.10 less on precission. Desition depends on marketing tactics to prevent leaving the bank and how agressive they'll be. |
+| **Balanced Random Forest** | **~0.85 (best recall)** | Best recall across all models, minimal false negatives. After hyperparameter tuning and class weights tuning, we were able to get ~0.80 on recall, but 0.10 less on precission. Desition depends on marketing tactics to prevent leaving the bank and how agressive they'll be. |
 | XGBoost | ~0.86 | Slightly higher AUC, but more false negatives. Recall for churn class is 0.49, which is almost guesing. |
 | LightGBM | ~0.86 | Similar trend to XGBoost, good precision but even lower recall - 0.46. |
 
